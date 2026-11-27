@@ -1,48 +1,115 @@
-# movie_app
+# 🎬 Movies App (Flutter)
 
-> Flutter Movie App -- responsive with onboarding, login, and rich movie browsing
+A Responsive Flutter-based movies application supporting **English and Arabic**, with login and register , onboarding, and rich movie browsing features.
+
+<p align="center">
+  <img src="screenShots/cover.png" alt="cover" width="800" hspace="10" />
+</p>
 
 ---
 
-## About
+## 📹 App Demo: How Movies App Works
+- watch this video:
 
-A Responsive Flutter-based movies application supporting English and Arabic, with login, register, onboarding, and rich movie browsing via TMDB API. Built by [Mustafa Mahmoud](https://mustafa-mahmoud.vercel.app).
+https://www.loom.com/share/a4a8296fe7db4c3195e02fe6a6b7b532?sid=6b837b11-bcbe-403b-81ed-e43327c5d9a5
 
-### Key Features
+---
 
-- Browse popular, top-rated and upcoming movies
-- Login & Register with Firebase Auth
-- Onboarding experience
-- Arabic & English support
-- Light & Dark mode
-- Movie search with TMDB API
+## 🚀 Features
 
-## Tech Stack
+- 👋 Onboarding flow for new users
+- 🔐 login and register  
+- 🌍 English and Arabic language support 
+- 🏠 Bottom navigation with:
+  - Home
+  - Search
+  - Explore Categories
+  - Profile
+- 💾 Save movies to "Watch Later"
+- 📜 View watch history
+- 🔍 Search movies by name
+- 👤 View and edit user profile:
+  - Name, image, and phone number
+  - Change password
+  - Delete account
+- 🚪 Logout functionality
 
-| Technology | Version |
-|-----------|---------|
-| Flutter | >=3.0.0 |
-| Dart | >=3.0.0 |
-| TMDB API | v3 |
-| Firebase | latest |
+---
+## 📸 Screenshots
 
-## Setup
+### 🟦 Onboarding
 
-`ash
-git clone https://github.com/mustafaelzoghby/movie_app
-cd movie_app
-flutter pub get
-flutter run
-`
+<p align="center">
+  <img src="screenShots/Onboarding1.jpeg" alt="Onboarding1" width="200" hspace="10" />
+  <img src="screenShots/Onboarding2.jpeg" alt="Onboarding2" width="200" hspace="10" />
+  <img src="screenShots/Onboarding3.jpeg" alt="Onboarding3" width="200" hspace="10" />
+</p>
 
-## Author
+### 🔐 Authentication
 
-**Mustafa Mahmoud** -- Full-Stack Developer
+<p align="center">
+  <img src="screenShots/login_en.jpeg" alt="Login EN" width="200" hspace="10" />
+  <img src="screenShots/login_ar.jpeg" alt="Login AR" width="200" hspace="10" />
+  <img src="screenShots/register_ar.jpeg" alt="Register AR" width="200" hspace="10" />
+  <img src="screenShots/register_en.jpeg" alt="Register EN" width="200" hspace="10" />
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-mustafa--mahmoud.vercel.app-purple?style=flat-square)](https://mustafa-mahmoud.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-mustafaelzoghby-black?style=flat-square&logo=github)](https://github.com/mustafaelzoghby)
-[![Email](https://img.shields.io/badge/Email-mustafaelzoghby7%40gmail.com-red?style=flat-square&logo=gmail)](mailto:mustafaelzoghby7@gmail.com)
+### 🏠 Home Tab
 
-## License
+<p align="center">
+  <img src="screenShots/hometab_en.jpeg" alt="Home Tab" width="200" hspace="10" />
+  <img src="screenShots/WhatsApp Image 2025-07-11 at 3.39.42 PM.jpeg" alt="Home Tab 2" width="200" hspace="10" />
+</p>
 
-MIT License
+### 🎬 Movie Details
+
+<p align="center">
+  <img src="screenShots/movieScreen1.jpeg" alt="Movie Details 1" width="200" hspace="10" />
+  <img src="screenShots/moviescreen2.jpeg" alt="Movie Details 2" width="200" hspace="10" />
+  <img src="screenShots/movieScreen3.jpeg" alt="Movie Details 3" width="200" hspace="10" />
+  <img src="screenShots/addToHistory.jpeg" alt="Add to History" width="200" hspace="10" />
+</p>
+
+### 🔍 Search
+
+<p align="center">
+  <img src="screenShots/emptySearch.jpeg" alt="Empty Search" width="200" hspace="10" />
+  <img src="screenShots/search.jpeg" alt="Search" width="200" hspace="10" />
+</p>
+
+### 🗂️ Explore
+
+<p align="center">
+  <img src="screenShots/explore.jpeg" alt="Explore" width="200" hspace="10" />
+</p>
+
+### 👤 Profile Overview
+
+<p align="center">
+  <img src="screenShots/profileTab.jpeg" alt="Profile EN" width="200" hspace="10" />
+  <img src="screenShots/profileHistory.jpeg" alt="History" width="200" hspace="10" />
+  <img src="screenShots/profileTab_ar.jpeg" alt="Profile AR" width="200" hspace="10" />
+</p>
+
+### ✏️ Edit Profile
+
+<p align="center">
+  <img src="screenShots/editProfile.jpeg" alt="Edit Profile 1" width="200" hspace="10" />
+  <img src="screenShots/editprofile2.jpeg" alt="Edit Profile 2" width="200" hspace="10" />
+</p>
+
+### 🔑 Reset Password
+
+<p align="center">
+  <img src="screenShots/resetPassword_ar.jpeg" alt="Reset Password" width="200" hspace="10" />
+    <img src="screenShots/resetPassword_en.jpeg" alt="Reset Password" width="200" hspace="10" />
+</p>
+
+## 🧩 Tech Stack
+
+- Flutter & Dart
+- HTTP REST API
+- Flutter localization (`intl`)
+- Flutter ScreenUtil for responsiveness
+
+---
